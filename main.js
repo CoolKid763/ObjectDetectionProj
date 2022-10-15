@@ -16,7 +16,7 @@ leftWristY = 0;
 function preload()
 {
 	song1 = loadSound("music.mp3");
-	song2 = loadSound("TOP GUN ANTHEM (128 kbps).mp3");
+	song2 = loadSound("TOP GUN ANTHEM(128 kbps).mp3");
 }
 
 function setup() {
@@ -72,7 +72,7 @@ function draw() {
 		if(song1_status == false)
 		{
 			song1.play();
-			document.getElementById("song").innerHTML = "Playing - Harry Potter Theme Song"
+			document.getElementById("volume").innerHTML = "Playing - Relaxing Tune"
 		}
 	}
 
@@ -85,7 +85,7 @@ function draw() {
 		if(song2_status == false)
 		{
 			song2.play();
-			document.getElementById("song").innerHTML = "Playing - Peter Pan Song"
+			document.getElementById("volume").innerHTML = "Playing - Top Gun Anthem"
 		}
 	}
 
